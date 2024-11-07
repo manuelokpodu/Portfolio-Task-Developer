@@ -1,0 +1,37 @@
+.main-container {
+  height: 1262.67px;
+  gap: 114.67px;
+}
+.main-container h3 {
+  font-weight: 600;
+  font-size: 21.33px;
+  color: #282938;
+  margin-bottom: 10px;
+}
+.main-container h1 {
+  font-weight: 700;
+  font-size: 64px;
+  color: #282938;
+  margin-bottom: 20px;
+}
+.main-container p {
+  font-weight: 400;
+  font-size: 24px;
+  color: #1c1e53;
+  margin-bottom: 10px;
+  /* border: 1px solid red; */
+  max-width: 722px;
+}
+
+@media (max-width: 992px) {
+  .image-con {
+    display: none;
+  }
+  .conn {
+    text-align: center;
+    margin: auto;
+  }
+  .conn p {
+    font-size: 28px;
+  }
+}

@@ -1,0 +1,161 @@
+.sec-contact-con h3 {
+  font-weight: 600;
+  font-size: 16px;
+}
+.sec-contact-con h1 {
+  font-weight: 700px;
+  color: #282938;
+  font-size: 64px;
+}
+.sec-contact-con p {
+  color: #1c1e53;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 80px;
+}
+.the-containerr {
+  height: 1315px;
+  padding: 70px;
+}
+.swipe-div,
+.address-no {
+  gap: 40px;
+  justify-content: center;
+}
+#first-name,
+#last-name,
+#email,
+#telephone {
+  width: 496px;
+  height: 64px;
+  border: 1.33px solid #282938;
+}
+label {
+  color: #282938;
+  font-weight: 400;
+  font-size: 21.33px;
+}
+
+.do-you {
+  margin-top: 20px;
+}
+.form-content {
+  flex-direction: column;
+}
+.coverr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+#testing {
+  width: 1020px;
+  height: 214px;
+  border: 1.33px solid #282938;
+  border-radius: 8px;
+}
+
+/* textarea {
+  width: 1130px;
+} */
+
+textarea::placeholder {
+  font-size: 21.33px;
+  font-weight: 400;
+  color: #505050;
+}
+
+/* .details-con {
+  border: 1px solid green;
+} */
+
+.details-con button {
+  width: 1020px;
+  height: 92px;
+  padding: 30px, 42.67px, 30px, 42.67px;
+  background-color: #5e3bee;
+  border: none;
+  border-radius: 8px;
+  font-size: 21.33px;
+  font-weight: 400;
+  color: white;
+}
+.checkbox-div {
+  width: 996px;
+}
+@media (max-width: 993px) {
+  .checkbox-div {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .swipe-div,
+  .address-no {
+    flex-direction: column;
+    margin: auto;
+  }
+  #testing,
+  .details-con button {
+    width: 500px;
+  }
+  .contact-container {
+    height: 1500px;
+  }
+}
+@media (max-width: 520px) {
+  #testing,
+  .details-con button,
+  #first-name,
+  #email,
+  .address-no,
+  .swipe-div,
+  #last-name,
+  #telephone {
+    width: 430px;
+  }
+  .the-containerr {
+    height: 1500px;
+  }
+}
+@media (max-width: 450px) {
+  #testing,
+  .details-con button,
+  #first-name,
+  #email,
+  .address-no,
+  .swipe-div,
+  #last-name,
+  #telephone {
+    width: 380px;
+  }
+  .details-con button {
+    height: 70px;
+  }
+}
+@media (max-width: 400px) {
+  #testing,
+  .details-con button,
+  #first-name,
+  #email,
+  .address-no,
+  .swipe-div,
+  #last-name,
+  #telephone {
+    width: 330px;
+  }
+}
+@media (max-width: 350px) {
+  #testing,
+  .details-con button,
+  #first-name,
+  #email,
+  .address-no,
+  .swipe-div,
+  #last-name,
+  #telephone {
+    width: 300px;
+  }
+}

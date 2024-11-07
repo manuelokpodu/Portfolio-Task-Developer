@@ -1,0 +1,141 @@
+.expertise-container {
+  margin-top: 100px;
+}
+.expertise-container h3 {
+  color: #282938;
+  font-size: 21.33px;
+  font-weight: 600;
+}
+.expertise-container h1 {
+  font-size: 54px;
+  font-weight: 700;
+  color: #282938;
+}
+.expertise-inner-con {
+  margin-top: 80px;
+  display: flex;
+  gap: 20px;
+}
+.inner-con-each {
+  height: 380px;
+  width: 405.33px;
+  border: 0px, 0px, 4px, 0px;
+  border-radius: 10.67px;
+  padding: 32px;
+  background-color: #f5fcff;
+  gap: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+.inner-con-each img {
+  height: 79.33px;
+  border-radius: 10.33px;
+  width: 79.33px;
+  box-shadow: 0px 0px 15.49px 0px #0000001a;
+  padding: 12.91px;
+  background-color: white;
+}
+
+.inner-con-each h2 {
+  font-size: 23px;
+  font-weight: 700;
+  color: #282938;
+  margin-top: -10px;
+}
+
+.inner-con-each p {
+  font-size: 19px;
+  color: #1c1e53;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+.first-inner {
+  background-color: #f5fcff;
+  padding: 32px;
+  width: 405.33px;
+  border-radius: 10.67px;
+  height: 380px;
+  border: 0px, 0px, 4px, 0px;
+  border-bottom: 4px solid #5e3bee;
+  gap: 32px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.first-inner img {
+  background-color: white;
+  padding: 12.91px;
+  border-radius: 10.33px;
+  height: 79.33px;
+  width: 79.33px;
+  box-shadow: 0px 0px 15.49px 0px #0000001a;
+}
+.first-inner h2 {
+  margin-top: -10px;
+  font-weight: 700;
+  font-size: 23px;
+  color: #282938;
+}
+.expertise-inner-con p {
+  color: #1c1e53;
+  font-size: 19px;
+  margin-top: -10px;
+  font-weight: 400;
+}
+
+@media (max-width: 1024px) {
+  .first-inner,
+  .inner-con-each {
+    height: 480px;
+  }
+}
+@media (max-width: 992px) {
+  .expertise-inner-con {
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .expertise-container {
+    text-align: start;
+  }
+  .first-inner,
+  .inner-con-each {
+    text-align: start;
+    height: 500px;
+  }
+}
+@media (max-width: 768px) {
+  .expertise-inner-con {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .expertise-inner-con p,
+  .expertise-inner-con p {
+    text-align: start;
+  }
+  .expertise-body {
+    text-align: center;
+  }
+}
+@media (max-width: 320px) {
+  .expertise-container {
+    text-align: center;
+  }
+  .expertise-container h1 {
+    font-size: 45px;
+  }
+  .expertise-inner-con {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .inner-con-each h2,
+  .first-inner p,
+  .inner-con-each p {
+    text-align: start;
+  }
+}
