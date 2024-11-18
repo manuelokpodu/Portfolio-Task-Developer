@@ -31,7 +31,29 @@
     text-align: center;
     margin: auto;
   }
+  
   .conn p {
     font-size: 28px;
   }
+}
+
+@media (max-width: 425px) {
+  .conn h1 {
+    font-size: 44px;
+  }
+
+  .conn p {
+    font-size: 21px;
+  }
+
+  .conn h3 {
+    font-size: 28px;
+    margin-top: 0px;
+  }
+  
+  .main-container {
+    height: 650px;
+  }
+
+ 
 }

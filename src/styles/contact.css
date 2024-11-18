@@ -74,12 +74,17 @@ textarea::placeholder {
   width: 1020px;
   height: 92px;
   padding: 30px, 42.67px, 30px, 42.67px;
-  background-color: #5e3bee;
-  border: none;
+  color: #5e3bee;
+  border: 1px solid #5e3bee;
   border-radius: 8px;
   font-size: 21.33px;
   font-weight: 400;
+  background-color: white;
+}
+
+.details-con button:hover {
   color: white;
+  background-color: #5e3bee;
 }
 .checkbox-div {
   width: 996px;

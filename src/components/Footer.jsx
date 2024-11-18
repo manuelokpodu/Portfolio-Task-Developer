@@ -32,7 +32,7 @@ const Footer = () => {
 
         <div className=" d-flex justify-content-between align-items-center footer-dropdownn">
           <div className="madebyair">
-            <a href="#"> Made with 💖 by Airdokan</a>
+            <a href="#"> Made with 💖 by Manuel</a>
           </div>
 
           <div className="privacy-terms d-flex gap-4">

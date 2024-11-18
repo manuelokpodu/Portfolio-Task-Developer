@@ -121,6 +121,17 @@
     text-align: center;
   }
 }
+
+@media (max-width: 425px) {
+  .expertise-container h1 {
+    font-size: 35px;
+  }
+
+  /* .expertise-container {
+    margin-bottom: 0px;
+  } */
+}
+
 @media (max-width: 320px) {
   .expertise-container {
     text-align: center;

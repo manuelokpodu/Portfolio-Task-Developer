@@ -77,7 +77,11 @@
     width: 200px;
   }
   .portfolio-text h1 {
-    font-size: 30px;
+    font-size: 20px;
+  }
+
+  .portfolio-text h3 {
+    font-size: 19px;
   }
 }
 @media (max-width: 400px) {
@@ -89,22 +93,29 @@
   .portfolio-text h1 {
     font-size: 30px;
   }
-}
-@media (max-width: 370px) {
   
+  .chargee {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width: 375px) {
   .portfolio-text h1 {
-    font-size: 25px;
+    font-size: 2px;
+  }
+
+  .portfolio-text h3 {
+    font-size: 2px;
   }
 }
 @media (max-width: 350px) {
-  
   .portfolio-text h3 {
     font-size: 18px;
   }
   .portfolio-text h1 {
     font-size: 22px;
   }
-   .github-text {
+  .github-text {
     font-size: 14px;
     width: 160px;
     height: 40px;

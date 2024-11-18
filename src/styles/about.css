@@ -1,41 +1,45 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
-.about-con {
+.about-bg {
   background-color: #f5fcff;
-  display: flex;
   height: 600px;
+  display: flex;
 }
-.about-con h3 {
-  margin-bottom: 10px;
-  font-size: 18px;
+.about-bg h3 {
   font-weight: 600;
-}
-.about-con h2 {
+  font-size: 18px;
   margin-bottom: 10px;
+}
+.about-bg h2 {
   font-weight: 700;
   font-size: 45px;
+  margin-bottom: 10px;
 }
-.about-con p {
+.about-bg p {
+  font-size: 18px;
   font-weight: 400;
   color: #1c1e53;
-  font-size: 18px;
 }
-.about-con button {
+.about-bg button {
   width: 170px;
   height: 70px;
-  background-color: #5e3bee;
+  color: #5e3bee;
   border-radius: 5.33px;
   gap: 10.67px;
-  padding: 18.67px, 42.67px;
-  color: #ffffff;
+  padding: 18.67px, 42.67px, 18.67px, 42.67px;
+  background-color: #ffffff;
   border: none;
   font-weight: 400;
   font-size: 21.33px;
   margin-top: 30px;
+  border: 1px solid #5e3bee;
+}
+
+.about-bg button:hover {
+  color: #ffffff;
+  background-color: #5e3bee;
 }
 
 @media (max-width: 768px) {
-  .about-con h2 {
+  .about-bg h2 {
     font-size: 45px;
   }
 }
@@ -43,16 +47,33 @@
   .image-contact {
     display: none;
   }
-  .about-con h2 {
+  .about-bg h2 {
     font-size: 39px;
   }
-  .about-con {
+  .about-bg {
     height: 750px;
+  }
+
+  .this-con {
+    /* margin-top: 50px; */
+    flex-direction: column-reverse;
+  }
+
+  .image-man {
+    margin-top: 40px;
+  }
+
+  .this-con h2 {
+    font-size: 30px;
+  }
+
+  .this-con button {
+    margin-top: 0px;
   }
 }
 
 @media (max-width: 320px) {
-  .image-con {
+  .image-content {
     display: none;
   }
 }

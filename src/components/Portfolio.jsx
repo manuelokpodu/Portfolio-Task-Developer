@@ -34,7 +34,7 @@ const Portfolio = () => {
   ];
   return (
     <div className="container portfolioo">
-      <div className="d-flex justify-content-between align-items-center">
+      <div className="d-flex justify-content-between align-items-center chargee">
         <div className="portfolio-text">
           {" "}
           <h3>Recent Projects</h3>

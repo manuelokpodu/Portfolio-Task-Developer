@@ -21,3 +21,8 @@
   height: 50px;
   background-color: white;
 }
+
+.butt:hover {
+  background-color: #5e3bee;
+  color: #ffffff;
+}
