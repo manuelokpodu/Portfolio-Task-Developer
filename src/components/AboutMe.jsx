@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <div className="main-container d-flex align-items-center justify-content-center">
       <div className="container">
-        <div className="row align-items-center justify-content-between gap-5">
+        <div className="align-items-center justify-content-between gap-5 side-container">
           <div className="col col-lg-6 image-con">
             <img
               className="img-fluid aboutmaan"
